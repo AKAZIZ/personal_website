@@ -19,7 +19,7 @@ export default function Greeting() {
               {" "}
               <span className="wave-emoji">{emoji("👋")}</span>
             </h1>
-            <p className="greeting-text-p subTitle">{greeting.subTitle}</p>
+            {greeting.subTitle.map((object) => <p className="greeting-text-p subTitle">{object}</p>)}
             <SocialMedia />
             <div className="button-greeting-div">
               <Button text="Contact me" href="#contact" />
@@ -28,7 +28,7 @@ export default function Greeting() {
           </div>
         </div>
         <div className="greeting-image-div">
-          <img alt="saad sitting on table" src={require("../../assets/images/manOnTable.svg")}></img>
+          <img alt="Anass portrait" src={require("../../assets/images/anassPortrait.jpg")}></img>
         </div>
       </div>
     </div>

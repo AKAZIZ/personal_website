@@ -7,35 +7,35 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  username: "Anass KAZIZ",
+  title: "<Hello World!/>, I'm Anass",
+  subTitle: [
+  emoji(" 🚀 Embedded Systems Engineer from Morocco 🇲🇦"),
+  emoji(" 📐 Math Lover"),
+  emoji(" 👨‍🏫 Interested in education and the way to improve it")
+  ],
+  resumeLink: "https://drive.google.com/file/"
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
 
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
-  // Instagram and Twitter are also supported in the links!
+  github: "https://github.com/akaziz",
+  linkedin: "https://www.linkedin.com/in/anass-kaziz-979510107/",
+  gmail: "kaziz.anas@gmail.com",
+  instagram: "https://www.instagram.com/anas.kaziz"
 };
 
 // Your Skills Section
 
 const skillsSection = {
-  title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I do",
+  subTitle: "A GUY WITH A CRAZY APPETITE OF LEARNING AND DEVELOP STUFF",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Develop Embedded applications for different MCUs and drivers for peripherals"),
+    emoji("⚡ Develop simple Embedded Linux applications"),
+    emoji("⚡ Develop Automated solutions HW & SW")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -43,52 +43,28 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Embedded C",
+      fontAwesomeClassname: "fab fa-cuttlefish"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
+    },
+        {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "electronics",
+      fontAwesomeClassname: "fas fa-microchip"
+    },
+    {
+      skillName: "Networking",
+      fontAwesomeClassname: "fas fa-network-wired"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "docker",
@@ -103,15 +79,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
+      Stack: "Embedded Software",  //Insert stack or technology you have experience in
+      progressPercentage: "80%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Automation",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "PCB Design",
       progressPercentage: "60%"
     }
   ]
@@ -124,29 +100,35 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",  
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Embedded Software Intern",
+      company: "ABMI Engineering",
+      companylogo: require("./assets/images/abmiLogo.jpeg"),
+      date: "August 2016 – January 2017",
+      desc: "Reverse engineering of a coffee machine code",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Analysing the code and translate it to Flow Chart",
+        "Integrating new function in order to resolve technical problems",
+        "Designing a PCB for an electrical cigarette on KiCAD"
       ]
     },
     {
-      role: "Front-End Developer",   
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Embedded Software and Automation Intern",
+      company: "Texas Instruments",
+      companylogo: require("./assets/images/tiLogo.jpg"),
+      date: "May 2018 – October 2018",
+      desc: "Developing a global automated test setup for Hercules Microcontroller peripherals (CAN, ADC, RAM, CPU,...)",
+      descBullets: [
+        "Integrating new function in peripheral tests protocols by using embedded C",
+        "Developing a global LabVIEW Program in order to test all the Microcontroller peripherals automatically, and showing the results for each peripheral in real time, to the tester through a Graphical User Interface (GUI)",
+        "PCB design with Altium"
+      ]
     },
     {
-      role: "Software Engineer Intern",  
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Embedded Automated Testing Engineer",
+      company: "EVBox",
+      companylogo: require("./assets/images/evboxLogo.jpg"),
+      date: "Jan 2019 – Present",
+      desc: "EVBox is the leading global manufacturer of electric vehicle charging stations and charging management software. With an installed base of over 60,000 charging points across more than 45 countries worldwide, EVBox drives sustainable mobility by bringing leading electric vehicle charging solutions to the world."
     },
   ]
 };
@@ -220,18 +202,18 @@ const achievementSection = {
 const blogSection = {
 
   title: "Blogs",
-  subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  subtitle: "One of my hobbies is to explain difficult notions with the way I understood them and with the most easiest manner",
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+      url: "#blogs",
+      title: "How does a compiler work?",
+      description: "Coming soon!"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      url: "#blogs",
+      title: "How do pointers work in C?",
+      description: "Coming soon!"
     }
   ]
 };
@@ -263,10 +245,10 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me 📞 📩"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+31-617984733",
+  email_address: "kaziz.anas@gmail.com"
 };
 
 //Twitter Section
