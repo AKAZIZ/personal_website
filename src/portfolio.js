@@ -246,8 +246,8 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me 📞 📩"),
-  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+31-617984733",
+  subtitle: "Want to say hi? My Inbox is open for all.",
+//  number: "+31-617984733",
   email_address: "kaziz.anas@gmail.com"
 };
 
